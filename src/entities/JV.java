@@ -94,9 +94,9 @@ public class JV implements ActionListener {
 
 	public void resultado(String p1, String p2) {
 		if (p1 != null) {
-			JOptionPane.showMessageDialog(null, p1 + " venceu!");
+			JOptionPane.showMessageDialog(null, p1 + " venceu o Jogo da Velha!");
 		} else {
-			JOptionPane.showMessageDialog(null, p2 + " venceu!");
+			JOptionPane.showMessageDialog(null, p2 + " venceu o Jogo da Velha!");
 		}
 	}
 
